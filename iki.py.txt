@@ -1,0 +1,5 @@
+Isim="Osman"
+if Isim=="Osman":
+    print("merhaba öğretmenim")
+else:
+    print("Sizi Tanıyamadım")

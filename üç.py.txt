@@ -1,0 +1,5 @@
+kisakenar=int(input("kisa kenarı giriniz: " ))
+uzunkenar=int(input("uzun kenarı giriniz: " ))
+alan=kisakenar*uzunkenar
+print("dikdörtgenin alanı: " )
+print(alan)
