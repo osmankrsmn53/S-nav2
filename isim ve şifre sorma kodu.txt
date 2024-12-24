@@ -1,6 +1,3 @@
-'''kullanici_adi=("osman")
-sifre=("1234")'''
-
 kullanici_adi=input("kullanıcı adı: ")
 sifre=input("şifre: ")
 if(kullanici_adi!="osman"):
