@@ -124,3 +124,18 @@ while True:
 
 if sayac > 0:
     print("sayıların ortalaması",toplam / sayac)
+
+
+
+
+def toplama():
+  sayi_adedi = int(input("Kaç tane sayı toplamak istersiniz? "))
+  toplam = 0
+
+  for i in range(sayi_adedi):
+    sayi = float(input(f"{i+1}. sayıyı girin: "))
+    toplam += sayi
+
+  print("Sayıların toplamı:", toplam)
+
+toplama()
