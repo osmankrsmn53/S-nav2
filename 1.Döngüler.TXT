@@ -139,3 +139,44 @@ def toplama():
   print("Sayıların toplamı:", toplam)
 
 toplama()
+
+
+
+
+
+
+isim=input("İsminizi Giriniz:")
+#isim=["P","Y","T","H","O","N"]
+for ad in isim:
+    print(ad*5)
+
+
+
+
+
+ayilar=[10,11,12,13,14,15,16,17,18,19,20]
+for sayi in sayilar:
+if sayi%3==0:
+print(sayi)
+
+
+
+
+alan_adi=”bilişim”
+toplam=0
+for aranan in alan_adi:
+if aranan==”i”:
+toplam=toplam+1
+print(“Bu metinde toplam “,toplam,” adet i vardır”)
+
+
+
+
+
+i=1
+sonuc=1
+faktoriyel=int(input(“Faktoriyeli hesaplanacak sayıyı giriniz: “))
+while (i<=faktoriyel):
+sonuc=i*sonuc
+i=i+1
+print(“Sonuc=”,sonuc)
